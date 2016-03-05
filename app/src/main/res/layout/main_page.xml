@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:paddingBottom="10dp"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/table_top"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightlightgreen"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:stretchColumns="1">
+            <TableRow
+                android:background="@color/lightlightgreen">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightlightgreen"
+                    android:text="@string/currentbal"
+                    android:textSize="24sp"
+                    android:textColor="@color/tab_grey"
+                    android:paddingStart="5dp"/>
+                <TextView
+                    android:id="@+id/tvSum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightlightgreen"
+                    android:textSize="24sp"
+                    android:textColor="@color/tab_grey"
+                    android:layout_gravity="end"
+                    android:paddingEnd="5dp"/>
+            </TableRow>
+        </TableLayout>
+
+            <ListView
+                android:layout_marginTop="5dp"
+                android:id="@+id/sumList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        fab:fab_colorNormal="@color/coral"
+        fab:fab_colorPressed="@color/palecream"
+        fab:fab_icon="@android:drawable/ic_menu_add" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        fab:fab_colorNormal="@color/lightlightgreen"
+        fab:fab_colorPressed="@color/palecream"
+        fab:fab_icon="@android:drawable/ic_menu_compass" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightlightblue"
+        android:id="@+id/layTitle"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDesc"
+            android:text="@string/testdesc"
+            android:textSize="24sp"
+            android:textColor="@color/tab_grey"
+            android:layout_alignParentStart="true"
+            android:gravity="start"
+            android:background="@color/lightlightblue"
+            android:paddingStart="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTransDate"
+            android:text="@string/testdatesingle"
+            android:layout_alignParentEnd="true"
+            android:textSize="18sp"
+            android:gravity="end"
+            android:background="@color/lightlightblue"
+            android:layout_centerVertical="true"
+            android:textColor="@color/background_grey"
+            android:paddingEnd="5dp" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:stretchColumns="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layTitle"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/background_grey">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvAmtAway"
+                android:text="@string/testincome"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/tvAmtHome"
+                android:text="@string/testin"
+                android:layout_gravity="end" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>

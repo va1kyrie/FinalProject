@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/greenish_grey"
+        android:id="@+id/layTitle"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCountry"
+            android:text="@string/wakanda"
+            android:textSize="24sp"
+            android:textColor="@color/lightlightblue"
+            android:layout_alignParentStart="true"
+            android:gravity="start"
+            android:background="@color/greenish_grey"
+            android:paddingStart="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDates"
+            android:text="@string/testdate"
+            android:layout_alignParentEnd="true"
+            android:textSize="18sp"
+            android:gravity="end"
+            android:background="@color/greenish_grey"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:stretchColumns="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layTitle"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/background_grey">
+
+        <TableRow>
+            <TextView
+                android:text="@string/income"
+                android:layout_gravity="end" />
+            <TextView
+                android:id="@+id/tvIncomeAway"
+                android:text="@string/testincome"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/tvIncomeHome"
+                android:text="@string/testin"
+                android:layout_gravity="end"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:text="@string/expenses"
+                android:layout_gravity="end" />
+            <TextView
+                android:id="@+id/tvExpensesAway"
+                android:text="@string/testexpense"
+                android:layout_gravity="center"
+                android:textColor="@color/coral"/>
+            <TextView
+                android:id="@+id/tvExpensesHome"
+                android:text="@string/testexp"
+                android:layout_gravity="end"
+                android:textColor="@color/coral"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/balance"
+                android:textSize="16sp"/>
+            <TextView
+                android:text="@string/testbal"
+                android:id="@+id/tvBalAway"
+                android:layout_gravity="center"
+                android:textColor="@color/palecream"
+                android:textSize="16sp"/>
+            <TextView
+                android:text="@string/testbalance"
+                android:id="@+id/tvBalHome"
+                android:layout_gravity="end"
+                android:textColor="@color/palecream"
+                android:textSize="16sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

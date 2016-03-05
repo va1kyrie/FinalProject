@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/background_grey</item>
+        <item name="android:textColor">@color/lightbluegrey</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:buttonStyle">@style/ButtonStyleFlat</item>
+        <item name="alertDialogProTheme">@style/Theme.AlertDialogPro.Material</item>
+    </style>
+
+    <style name="ButtonStyleFlat" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightbluegrey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+    <style name="ButtonStyleNone" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightbluegrey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/tab_grey</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+</resources>

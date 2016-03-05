@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_grey">#404348</color>
+    <color name="background_grey">#535459</color>
+    <color name="greenish_grey">#6a8783</color>
+    <color name="teal">#329493</color>
+    <color name="blueteal">#65c7d0</color>
+    <color name="lightbluegrey">#add0d4</color>
+    <color name="lightlightblue">#e0f2f6</color>
+    <color name="lightlightgreen">#d6ebcb</color>
+    <color name="palecream">#faf1ea</color>
+    <color name="coral">#f29269</color>
+
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Travel Tracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wakanda">Wakanda</string>
+    <string name="testdate">20/1 - 30/1</string>
+    <string name="expenses">expenses</string>
+    <string name="testexpense">-$500</string>
+    <string name="testexp">-€300</string>
+    <string name="income">income</string>
+    <string name="testincome">$4</string>
+    <string name="testin">€4.15</string>
+    <string name="homecurrency">Home Currency</string>
+    <string name="current">Current Currency</string>
+    <string name="setcur">Set Current Currency</string>
+    <string name="sethome">Set Home Currency</string>
+    <string name="available">Available Currencies</string>
+    <string name="balance">balance</string>
+    <string name="testbalance">€100</string>
+    <string name="testbal">$100</string>
+    <string name="testdesc">Ice Cream!</string>
+    <string name="testdatesingle">22/3</string>
+    <string name="desc">Description</string>
+    <string name="date">Date:</string>
+    <string name="amount">Amount:</string>
+    <string name="description">Description:</string>
+    <string name="amt">Amount</string>
+    <string name="datehint">Date</string>
+    <string name="save">Save</string>
+    <string name="wakandadollar">Wakandan Dollar</string>
+    <string name="swexp">expense</string>
+    <string name="swinc">income</string>
+    <string name="type">Type:</string>
+    <string name="currency">Currency:</string>
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="newtrans">New Transaction</string>
+    <string name="currentbal">Current Balance:</string>
+    <string name="clear">Clear This Trip</string>
+    <string name="travels">My Travels</string>
+    <string name="clearlist">Clear List</string>
+
+    <string-array name="units">
+        <item>"AUD"</item>
+        <item>"BGN"</item>
+        <item>"BRL"</item>
+        <item>"CAD"</item>
+        <item>"CHF"</item>
+        <item>"CNY"</item>
+        <item>"CZK"</item>
+        <item>"DKK"</item>
+        <item>"GBP"</item>
+        <item>"HKD"</item>
+        <item>"HRK"</item>
+        <item>"HUF"</item>
+        <item>"IDR"</item>
+        <item>"ILS"</item>
+        <item>"INR"</item>
+        <item>"JPY"</item>
+        <item>"KRW"</item>
+        <item>"MXN"</item>
+        <item>"MYR"</item>
+        <item>"NOK"</item>
+        <item>"NZD"</item>
+        <item>"PHP"</item>
+        <item>"PLN"</item>
+        <item>"RON"</item>
+        <item>"RUB"</item>
+        <item>"SEK"</item>
+        <item>"SGD"</item>
+        <item>"THB"</item>
+        <item>"TRY"</item>
+        <item>"USD"</item>
+        <item>"ZAR"</item>
+    </string-array>
+
+</resources>
